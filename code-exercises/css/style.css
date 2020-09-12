@@ -1,7 +1,13 @@
-* {
-
+button {
+  border: none;
+  color: white;
+  background-color: #4CAF50;
+  padding:1em 2em 1em 2em;
 }
 
-h1 {
 
+.padding-hover:hover {
+    background-color: green;
+    color:white;
+    text-decoration: underline;
 }
