@@ -52,6 +52,15 @@ h1 {
     margin:0 auto;
     width:50%;
   }
+  .layout {
+
+      background-image: url(https://github.com/janiceyoo/gra-321/blob/master/code-exercises/img/GRA%20321%20-%20Magazine%20Layout%20Crate&Barrel%20.png?raw=true);
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 700px;
+      margin:0 auto;
+      width:50%;
+    }
 
     h2 {font-family: Franklin Gothic;
         color:#fff;
