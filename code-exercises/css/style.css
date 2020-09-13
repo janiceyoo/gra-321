@@ -11,3 +11,19 @@ button {
     color:white;
     text-decoration: underline;
 }
+.container {
+  background-image: url(https://i.guim.co.uk/img/media/536664f02b65f653393efa763fb4f62791db5a73/0_2319_8708_5224/master/8708.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=62dbeb781c10a9f403b14c8d6b2e2420);
+  background-size: cover;
+  height:700px;
+  margin: 0 auto;
+  width:50%;
+
+}
+
+h1 {
+  color: #fff;
+  font-size:52px;
+  position:relative;
+  text-align:center;
+
+}
