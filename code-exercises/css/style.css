@@ -19,6 +19,23 @@ button {
     text-decoration: underline;
 }
 
+/*---Media Queries---*/
+@media screen and (max-width: 1000px) {
+    body {
+
+        background-color: LightSalmon;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: MediumSeaGreen;
+    }
+}
+
+
+
+
 h1 {
   color: #fff;
   font-size:52px;
