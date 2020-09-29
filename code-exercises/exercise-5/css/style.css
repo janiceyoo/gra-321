@@ -1,70 +1,126 @@
-body{
-background-color: SkyBlue;
+body {
+    background-color: white;
+}
+
+h2 {
+
+    font-family: sans-serif;
+    color:black;
+    font-size: 58px;
+    line-height: normal;
+
+}
+
+
+p1 {
+    font-family: serif;
+    color:black;
+    font-size: 36px;
+    line-height: 40px;
+
+}
+
+p2 {
+    font-family: sans-serif;
+    color:black;
+    font-size: 20px;
+    line-height: 27px;
+
+}
+
+p3 {
+    font-family: sans-serif;
+    color:black;
+    font-size: 20px;
+    line-height: 15px;
 
 }
 
 
 
-button {
-  border: none;
-  color: white;
-  background-color: #4CAF50;
-  padding:1em 2em 1em 2em;
-}
 
-
-.padding-hover:hover {
-    background-color: green;
-    color:white;
-    text-decoration: underline;
-}
-
-/*---Media Queries---*/
-@media screen and (max-width: 1000px) {
-    body {
-
-        background-color: LightSalmon;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    body {
-        background-color: MediumSeaGreen;
-    }
-}
-
-
-
-
-h1 {
-  color: #fff;
-  font-size:52px;
-  position: relative;
-  text-align: center;
-
-}
 .container {
 
-    background-image: url(https://github.com/janiceyoo/gra-321/blob/master/code-exercises/img/HARRY%20MY%20MANS.jpg?raw=true);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 700px;
-    margin:0 auto;
-    width:50%;
-  }
-  .layout {
+    margin: 20 auto;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 3%;
 
-      background-image: url(https://github.com/janiceyoo/gra-321/blob/master/code-exercises/img/GRA%20321%20-%20Magazine%20Layout%20Crate&Barrel%20.png?raw=true);
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 700px;
-      margin:0 auto;
-      width:50%;
-    }
+}
 
-    h2 {font-family: Franklin Gothic;
-        color:#fff;
-        font-size:52px;
-        position: relative;
-        text-align: center;
-    }
+
+.header-container {
+
+
+
+    background-color: white;
+    margin-bottom: 2.75%;
+    margin-right: 6%;
+    height: 65px;
+    width:699px;
+    margin: 20 auto;
+
+}
+
+
+.caption-container {
+
+
+    margin-bottom: 3.7%;
+    background-color: white;
+    height: 76px;
+    width: 889px;
+
+
+}
+
+
+.body-container1 {
+
+    display: inline-block;
+    margin-right: 11.5%;
+    margin-bottom: 3%;
+    background-color: white;
+    height: 184px;
+    width: 479px;
+    margin: 20 auto;
+
+}
+
+.body-container2 {
+
+    display: inline-block;
+    margin-bottom: 3%;
+    background-color: white;
+    height: 184px;
+    width: 479px;
+
+}
+
+.big-container {
+
+
+
+    background-color: white;
+    margin-left: 6%;
+    margin-right: 6%;
+    height: 396px;
+    width: 1088px;
+    margin: 20 auto;
+    margin-bottom: 6%;
+}
+
+
+.page-container
+{
+
+    height: 15px;
+    width: 251px;
+    margin-left: 1045px;
+    margin-right: 6%;
+    background-color: white;
+    margin: 20 auto;
+
+
+
+}
