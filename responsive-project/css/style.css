@@ -3,13 +3,21 @@ background-color:white;
 }
 
 h1 {
-  font-family: InaiMathi, sans-serif
-  color: ##855A5A;
+  font-family: InaiMathi, sans-serif;
+  color: #855A5A;
   font-size:52px;
   position: relative;
-  text-align: center
+  text-align: center;
 }
 
+
+
+p {
+  font-family: InaiMathi;
+  color: #855A5A;
+  font-size: 15px;
+  margin-left: 7%
+}
 section {
   font-family: InaiMathi, sans-serif;
   color: ##855A5A;
@@ -20,6 +28,7 @@ section {
 .logo{
   margin-top: 10%;
   text-align:center;
+  margin-bottom: 10%
 }
 
 button {
@@ -34,4 +43,62 @@ button {
 .nav-bar{
   background-color: #F0DBDB
 
+}
+
+.header-container{
+  background-color: #F0DBDB;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.about{
+  color: #855A5A;
+  font-size: 15px;
+  text-align: center;
+}
+
+.menu-items{
+text-align: left;
+display: inline-block;
+
+
+}
+
+.small-prices{
+  display: inline-block;
+
+}
+
+.medium-prices{
+  display: inline-block;
+
+}
+
+.large-prices{
+  display: inline-block;
+
+}
+
+.special-prices{
+  display: inline-block;
+  margin-left: 20%;
+}
+
+
+.other-prices{
+  text-align: left;
+  display: inline-block;
+
+}
+
+
+.locations{
+  text-align: left;
+  margin-left: 25%;
+}
+
+.contact{
+  text-align: left;
+  margin-left: 25%;
+  margin-bottom: 15%;
 }
