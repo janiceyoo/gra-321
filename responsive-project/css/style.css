@@ -1,5 +1,5 @@
 * {
-background-color:White;
+background-color:white;
 }
 
 h1 {
@@ -16,4 +16,22 @@ section {
   font-size:52px;
   position: relative;
   text-align: center
+}
+.logo{
+  margin-top: 10%;
+  text-align:center;
+}
+
+button {
+  border: none;
+    font-family: InaiMathi;
+  color: #855A5A;
+  background-color: #F0DBDB;
+  padding:1em 2em 1em 2em;
+}
+
+
+.nav-bar{
+  background-color: #F0DBDB
+
 }
