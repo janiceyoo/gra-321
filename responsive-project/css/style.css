@@ -3,7 +3,15 @@ background-color:White;
 }
 
 h1 {
-  font-family: InaiMathi
+  font-family: InaiMathi, sans-serif
+  color: ##855A5A;
+  font-size:52px;
+  position: relative;
+  text-align: center
+}
+
+section {
+  font-family: InaiMathi, sans-serif;
   color: ##855A5A;
   font-size:52px;
   position: relative;
