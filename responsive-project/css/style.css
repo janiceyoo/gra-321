@@ -1,4 +1,4 @@
-* {
+body {
 background-color:white;
 }
 
@@ -49,6 +49,7 @@ button {
   border: none;
     font-family: InaiMathi;
   color: #855A5A;
+  font-size: 25px;
   background-color: #F0DBDB;
   padding:1em 2em 1em 2em;
 }
@@ -62,7 +63,7 @@ button {
 
 .about{
   color: #855A5A;
-  font-size: 15px;
+  font-size:52px;
   text-align: center;
 }
 
