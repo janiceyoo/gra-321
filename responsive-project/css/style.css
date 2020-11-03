@@ -10,6 +10,19 @@ h1 {
   text-align: center;
 }
 
+.nav-bar {
+  font-family: InaiMathi;
+  width: 100%;
+  background-color: #F0DBDB;
+  text-align: center;
+  padding: 5px auto;
+}
+
+.nav-bar a p {
+  width:100%;
+  color: #855A5A;
+  text-decoration: none;
+}
 
 
 p {
@@ -40,11 +53,6 @@ button {
 }
 
 
-.nav-bar{
-  background-color: #F0DBDB
-
-}
-
 .header-container{
   background-color: #F0DBDB;
   text-align: center;
@@ -60,6 +68,8 @@ button {
 .menu-items{
 text-align: left;
 display: inline-block;
+width: 50%; position: relative;
+
 
 
 }
