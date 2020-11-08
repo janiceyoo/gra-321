@@ -84,11 +84,36 @@ button {
   text-align: center;
 }
 
+
 .about{
   color: #855A5A;
   font-size:52px;
   text-align: center;
 }
+
+.cafe{
+  text-align: center;
+}
+
+.hot-coffee{
+  text-align: center;
+}
+
+
+.iced-coffee{
+  text-align: center;
+}
+
+
+.drink-specials{
+  text-align: center;
+}
+
+.panini{
+  text-align: center;
+}
+
+
 
 .menu-items{
 text-align: left;
