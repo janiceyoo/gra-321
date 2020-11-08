@@ -80,6 +80,10 @@ button {
   margin-top: 0%;
 }
 
+.kitchen{
+  text-align: center;
+}
+
 .about{
   color: #855A5A;
   font-size:52px;
@@ -87,7 +91,7 @@ button {
 }
 
 .menu-items{
-text-align: left;
+text-align: center;
 display: inline-block;
 width: 50%; position: relative;
 
