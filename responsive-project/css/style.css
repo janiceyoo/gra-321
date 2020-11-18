@@ -33,6 +33,45 @@ body {
   padding: 10px 0px;
 }
 
+.menu-content-row {
+width: 100%;
+background-color: lavender;
+}
+
+.menu-items, .small-prices, .medium-prices, .large-prices {
+background-color: PowderBlue;
+}
+
+.hot-coffee img {
+width:100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.iced-coffee img {
+width:100%;
+max-width: 500px;
+margin: 0 auto;
+}
+
+.tea img {
+width:100%;
+max-width: 500px;
+margin: 0 auto;
+}
+
+.drink-specials img {
+width:100%;
+max-width: 500px;
+margin: 0 auto;
+}
+
+.panini img {
+width:100%;
+max-width: 500px;
+margin: 0 auto;
+}
+
 @media only screen and (min-width:400px) {
   .nav-bar {
   display: flex;
@@ -161,4 +200,33 @@ width: 50%; position: center;
   text-align: left;
   margin-left: 25%;
   margin-bottom: 15%;
+}
+
+@media only screen and (min-width:900px) {
+
+.menu-content-row {
+width: 60%;
+  max-width: 500px;
+margin: 0 auto;
+background-color: lavender;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.menu-items {
+background-color: PowderBlue;
+  text-align:left;
+  padding-left: 0px;
+  margin-left:0px;
+  position:relative;
+}
+
+  .small-prices, .medium-prices, .large-prices, {
+   background-color: salmon;
+   text-align: right;
+  }
+
+}
+
 }
