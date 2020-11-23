@@ -33,6 +33,7 @@ body {
   padding: 10px 0px;
 }
 
+/*LG  Styling Start */
 .menu-content-row {
 width: 100%;
 background-color: lavender;
@@ -48,29 +49,7 @@ width:100%;
   margin: 0 auto;
 }
 
-.iced-coffee img {
-width:100%;
-max-width: 500px;
-margin: 0 auto;
-}
-
-.tea img {
-width:100%;
-max-width: 500px;
-margin: 0 auto;
-}
-
-.drink-specials img {
-width:100%;
-max-width: 500px;
-margin: 0 auto;
-}
-
-.panini img {
-width:100%;
-max-width: 500px;
-margin: 0 auto;
-}
+/*LG Styling End */
 
 @media only screen and (min-width:400px) {
   .nav-bar {
@@ -157,7 +136,8 @@ button {
 .menu-items{
 text-align: left;
 display: inline-block;
-width: 50%; position: center;
+width: 50%;
+position: center;
 
 
 
@@ -202,31 +182,33 @@ width: 50%; position: center;
   margin-bottom: 15%;
 }
 
+
+/*LG  Styling Start */
 @media only screen and (min-width:900px) {
 
 .menu-content-row {
 width: 60%;
   max-width: 500px;
+
 margin: 0 auto;
-background-color: lavender;
   display: flex;
   justify-content: space-between;
 }
 
 
 .menu-items {
-background-color: PowderBlue;
   text-align:left;
   padding-left: 0px;
   margin-left:0px;
   position:relative;
+
 }
 
-  .small-prices, .medium-prices, .large-prices, {
-   background-color: salmon;
-   text-align: right;
+  .small-prices, .medium-prices, .large-prices {
+   text-align:right;
   }
 
-}
 
 }
+
+/*LG Styling End */
