@@ -36,11 +36,9 @@ body {
 /*LG  Styling Start */
 .menu-content-row {
 width: 100%;
-background-color: lavender;
 }
 
 .menu-items, .small-prices, .medium-prices, .large-prices {
-background-color: PowderBlue;
 }
 
 .hot-coffee img {
