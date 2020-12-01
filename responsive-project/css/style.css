@@ -15,6 +15,14 @@ body {
   padding: 0;
 }
 
+.about {
+  position: center;
+  text-align: center;
+  max-width: 500px
+  display: flex;
+  justify-content: center;
+}
+
 .nav-bar {
   font-family: InaiMathi;
   width: 100%;
@@ -33,6 +41,10 @@ body {
   padding: 10px 0px;
 }
 
+.nav-bar a {
+text-decoration: none;
+}
+
 /*LG  Styling Start */
 .menu-content-row {
 width: 100%;
@@ -41,11 +53,55 @@ width: 100%;
 .menu-items, .small-prices, .medium-prices, .large-prices {
 }
 
-.hot-coffee img {
+.kitchen img {
 width:100%;
-  max-width: 500px;
+  max-width: 700px;
   margin: 0 auto;
 }
+
+.cafe img {
+width:100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hot-coffee img {
+width:100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.iced-coffee img {
+width:100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.tea img {
+width:100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.drink-specials img {
+width:100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.panini img {
+width:100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.harry img {
+width:100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
 
 /*LG Styling End */
 
@@ -182,11 +238,11 @@ position: center;
 
 
 /*LG  Styling Start */
-@media only screen and (min-width:900px) {
+@media only screen and (min-width:700px) {
 
 .menu-content-row {
 width: 60%;
-  max-width: 500px;
+  max-width: 700px;
 align-items: flex-end;
 margin: 0 auto;
   display: flex;
